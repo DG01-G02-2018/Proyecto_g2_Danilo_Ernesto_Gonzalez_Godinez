@@ -1,0 +1,18 @@
+header{
+    background: silver;
+    height: 100px;
+}
+#menu{
+   background-color: black
+}
+.container{
+    background-color: peru;   
+    height: 200px;
+}
+
+/*#part-1{
+    background-color: peru;
+}
+#part-1{
+    background-color: rgb(120, 205, 63);
+}*/
