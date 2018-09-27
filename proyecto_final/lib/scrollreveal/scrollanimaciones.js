@@ -48,3 +48,9 @@ window.sr = ScrollReveal();
                   origin: 'rigth' ,
                   distance: '300px'   
                 });
+            //paralax
+                sr.reveal('#parallax-container', {
+                  duration: 3900,
+                  origin: 'left' ,
+                  distance: '300px'   
+                });
