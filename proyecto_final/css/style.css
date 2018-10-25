@@ -13,10 +13,10 @@ header {
 }
 
 .navbar{
-  box-shadow: 4px 4px 7px #000;
-  opacity: .9;
-  font-size: 20px;
- 
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.589);
+  
+  font-size: 25px;  
+  background-color: #000;
   
 }
 
@@ -27,8 +27,7 @@ header {
   background-color: none;
   text-align: center;
   margin-top: 5%;
-}
- 
+} 
   
   /* MARKETING CONTENT
   -------------------------------------------------- */
@@ -60,8 +59,10 @@ header {
     line-height: 1;
     letter-spacing: -.05rem;
   } 
-  
-
+  #services{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 #jumbo-1{
   text-align: center;
   font-size: 20px;
@@ -79,7 +80,7 @@ header {
   ================================================== */
   .block {
     color: #fff;
-    height: 490px;
+    height: 590px;
     overflow: hidden;
     padding-top: 55px;
   }
@@ -94,7 +95,7 @@ header {
     margin-bottom: 0px;
   }
   #img-paralax{
-    width: 950px;
+    width: 850px;
     height: 450px;
     margin-bottom: 8%;
   }
@@ -104,27 +105,41 @@ header {
 #form-contacto{
   width: 400px;
   height: 620px;  
-  background-color: rgba(0, 0, 0, 0.548);
+  background-color: rgba(0, 0, 0, 0.479);
   border-radius: 8px;
   margin: 0 auto;
   padding: 15px 10px 10px 10px;
   color: white;
   -webkit-appearance: textfield;
   -webkit-rtl-ordering: logical;
+  -webkit-text-fill-color: white;
 }
   #fondo-contacto{  
     background: url(../img/paralax-2.jpg);
     background-size: cover; 
-    height: 700px;
+    height: 730px;
     width: 1000;
     padding: 20px 0px 10px 10px;
+    color: white;
   }
   #tema-contacto{
    
-    text-align: center;
-  
+    text-align: center;  
   }
-  ::placeholder { color:white;}
 
-  
- 
+  /*imgs*/
+  .thumbnail-img {
+    transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+}
+
+.thumbnail-img:hover {
+    transform:rotate(-10deg) scale(1.2);
+    -webkit-transform:rotate(-10deg) scale(1.2);
+    -moz-transform:rotate(-10deg) scale(1.2);
+    -o-transform:rotate(-10deg) scale(1.2);
+    -ms-transform:rotate(-10deg) scale(1.2);
+}
