@@ -12,7 +12,7 @@
     <script src="bootstrap/js/bootstrap.js"></script>
     <title>Inicio</title>
 <body> 
-    <nav id="menu" class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top navbar-inverse bg-dark">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top navbar-inverse">
         <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#header"><span><img src="img/icon.png" width="40" height="36" alt="icon"></span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link js-scroll-trigger" href="#header">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scroll-trigger" href="#header">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#jumbo-1">Informacion</a>
@@ -86,8 +86,9 @@
           </div>
         <div class="container col-lg-12 align-justify">                             
           <div class="row Marcketing">
-           <div id="Dmarcketing" class="col-lg-4">
-           <img class="rounded img-fluid" src="img/dm.png" alt="Generic placeholder image" width="300" height="300">
+           <div id="Dmarcketing" class="col-lg-4 div-img hidden">
+           <img class="rounded img-fluid img" src="img/dm.png" alt="Generic placeholder image" width="300" height="300">
+        
            <h2>Marcketing Digital</h2>
            <p><a class="btn btn-primary js-scroll-trigger" href="#Marcketing" role="button">Ver Mas &raquo;</a></p>
          </div><!-- /.col-lg-4 -->
@@ -105,7 +106,7 @@
         </div><!-- /.row -->
       </div>
     </section>
-
+    <section id="services">
     <hr class="featurette-divider" id="Marcketing">
     <div class="row featurette " >
       <div class=" col-md-7">
@@ -114,8 +115,8 @@
           para promocionar y vender productos y servicios. Estas estrategias y tacticas de marketing digital se plasma dentro de un plan de mercadotecnia en linea que incluyen
           la publicidad de pago por clic, los anuncios en paginas web, los envios de correos  masivos, marketing en redes sociales y la mercadotecnia de bitacoras o blogs.</p>
       </div>
-      <div class="col-md-5">
-        <img src="img/MD.jpg" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      <div class="col-md-5 thumbnail">
+        <img src="img/MD.jpg" class="featurette-image img-fluid mx-auto thumbnail-img" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -129,8 +130,8 @@
           con el uso de herrmientas actualizadas y de mas demanda en diseño y maquetacion tales como <span class="text-muted">HTML5, CSS3</span> y en lenguajes de programacion
           como <span class="text-muted">Java web, PHP, Javascript, </span>etc..</p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <img src="img/DW.jpg" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      <div class="col-md-5 order-md-1 thumbnail">
+        <img src="img/DW.jpg" class="featurette-image img-fluid mx-auto thumbnail-img" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -144,11 +145,11 @@
           osCommerce, Shopify, Opencard o Wordpress.  
         </p>
       </div>
-      <div class="col-md-5">
-        <img src="img/Ecommerce.jpg" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        
+      <div class="col-md-5 thumbnail">
+        <img src="img/Ecommerce.jpg" class="featurette-image img-fluid mx-auto thumbnail-img" data-src="holder.js/500x500/auto" alt="Generic placeholder image">        
       </div>
     </div>
+  </section>
 
     <hr class="featurette-divider">
     <!-- /END THE FEATURETTES --> 
@@ -175,7 +176,7 @@
          
             <!--First row-->
             <div id="products">
-            <!--***** temas *******  https://www.astemplates.com/free-wordpress-theme/980-et-etool         https://www.astemplates.com/freeproducts.php?product=freewordpressthemes&cmg=60s&gclid=Cj0KCQjwuafdBRDmARIsAPpBmVWGZ6bZsdIuH5FYTFItkirhWBAZDrWc6p8jj_UO3u6EiBfDUa5tJQoaAtTlEALw_wcB-->
+           
 <div class="row">
 <div class="col-md-6 mb-4">
 <!--Card-->
